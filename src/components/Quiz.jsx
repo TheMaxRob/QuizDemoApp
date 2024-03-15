@@ -55,7 +55,7 @@ export default function Quiz() {
                         let cssClasses = '';
 
                         if (answerState === 'answered' && isSelected) {
-                            cssClasses = 'selected'
+                            cssClasses = 'selected';
                         }
 
                         if (answerState === 'correct' || answerState === 'wrong' && isSelected) {
